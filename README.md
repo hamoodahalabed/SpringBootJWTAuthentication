@@ -22,9 +22,9 @@ This is a sample Spring Boot project that demonstrates JWT (JSON Web Token) auth
 
 2. Configure your database settings in `application.properties` or `application.yml`:
 
-3.Run the application
+3. Run the application
 
-4.Access the application at http://localhost:8080
+4. Access the application at http://localhost:8080
 
 ** Use Postman for endpoint testing
 ## Usage
