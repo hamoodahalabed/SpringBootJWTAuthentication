@@ -30,14 +30,15 @@ This is a sample Spring Boot project that demonstrates JWT (JSON Web Token) auth
 ## Usage
 
 - Register a new user: `http://localhost:8080/api/v1/auth/register`
-  sample data (POST): 
+  sample data (POST):
+  <pre>
   {
     "firstName": "mohammad",
     "lastName": "alabed",
     "email": "mohammad@gmail.com",
     "password": "1234"
   } the response is your jwt
-
+</pre>
 - Login with existing user credentials: `http://localhost:8080/api/v1/auth/authenticate`
   sample data (POST): 
   {
