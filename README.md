@@ -54,5 +54,5 @@ This is a sample Spring Boot project that demonstrates JWT (JSON Web Token) auth
   </pre>
   
 - Access protected resources with JWT: Include the JWT in the Authorization header as `Bearer token` using get method
-  http://localhost:8080/api/v1/demo-controller
+  `http://localhost:8080/api/v1/demo-controller`
   
