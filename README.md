@@ -56,3 +56,13 @@ This is a sample Spring Boot project that demonstrates JWT (JSON Web Token) auth
 - Access protected resources with JWT: Include the JWT in the Authorization header as `Bearer token` using get method
   `http://localhost:8080/api/v1/demo-controller`
   
+- You can add authorization by including the role in the token and apply method level authority using for exmple   @PreAuthorize("hasAuthority('USER')")<br>
+  example of how token will look like after decode it: <br>
+  `{
+  "roles": [
+    "USER"
+  ],
+  "sub": "mohammad@gmail.com",
+  "iat": 1726940728,
+  "exp": 1726942168
+}`
