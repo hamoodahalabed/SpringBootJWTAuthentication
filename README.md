@@ -68,4 +68,4 @@ This is a sample Spring Boot project that demonstrates JWT (JSON Web Token) auth
 }`
 
 - Also you can set the token inside cookies so you dont need to send the token manualy in each request (place the token <br>
-  inside the cookie then inside the servlet reponse in the filter then you can extract the token to validate it in each request)
+  inside the cookie then inside the servlet reponse in the filter then you can extract the token to validate it in each servlet request)
